@@ -16,6 +16,12 @@ Potom postupně procvičovat jednotlivé možnosti, jak měnit vzhled prvku:
 prvek.style.color = 'red';
 ```
 
+* měnit atributy prvku, jako je třeba src u obrázku
+
+```javascript
+obrazek.src = 'pes.jpg';
+```
+
 * měnit textový obsah prvku
 
 ```javascript
@@ -72,6 +78,8 @@ Jak bychom vyřešili, kdybychom chtěli čtvereček prvním kliknutím aktivova
 ```javascript
 ctverecek.classList.toggle('aktivni');
 ```
+
+Můžeme taky zkusit třeba výměnu obrázku z kočky na psa po kliknutí na obrázek. nebo pod obrázek přidat dvě tlačítka a jedním obrázek měnit na psa, druhým na kočku.
 
 ## Další
 
