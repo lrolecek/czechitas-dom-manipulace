@@ -83,7 +83,7 @@ Můžeme taky zkusit třeba výměnu obrázku z kočky na psa po kliknutí na ob
 
 ## Další
 
-V HTML je i ```<audio>``` element. Uk86eme si, jak jednodu3e spustit zvuk.
+V HTML je i ```<audio>``` element. Ukážeme si, jak jednoduše spustit zvuk.
 
 ```javascript
 let zvuk = document.querySelector('#hudba');
