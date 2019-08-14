@@ -5,7 +5,7 @@ Cvičení na změnu vlastností HTML prvků pomocí JavaScriptu.
 Jako základ je potřeba vysvětlit, jak vybírat prvky v dokumentu:
 
 ```javascript
-let prvek = document.querySelector('h1');
+var prvek = document.querySelector('h1');
 ```
 
 Potom postupně procvičovat jednotlivé možnosti, jak měnit vzhled prvku:
@@ -44,7 +44,7 @@ prvek.classList.remove('odebrana-trida');
 * později, až v souvislosti s click eventem ukázat i přepínání CSS třídy
 
 ```javascript
-prvek.classList.togle('prepinana-trida');
+prvek.classList.toggle('prepinana-trida');
 ```
 
 ## Události
@@ -68,7 +68,7 @@ Ukážeme, jak třeba při kliknutí na čtvereček můžeme změnit jeho barvu.
 
 ```javascript
 function priKliknuti() {
-  let stverecek = document.querySelector('.ctverecek');
+  var ctverecek = document.querySelector('.ctverecek');
   ctverecek.classList.add('aktivni');
 }
 ```
@@ -86,7 +86,7 @@ Můžeme taky zkusit třeba výměnu obrázku z kočky na psa po kliknutí na ob
 V HTML je i ```<audio>``` element. Ukážeme si, jak jednoduše spustit zvuk.
 
 ```javascript
-let zvuk = document.querySelector('#hudba');
+var zvuk = document.querySelector('#hudba');
 zvuk.play();
 
 // případně i zastavit
